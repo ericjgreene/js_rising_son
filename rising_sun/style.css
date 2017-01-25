@@ -1,0 +1,22 @@
+body {
+  background-image: url('horizon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sun {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+
+  /* animate changes to the position */
+  transition-property: left, top;
+  transition-duration: 2s, 2s;
+  transition-timing-function: linear;
+}
+
+.horizon {
+  height: 100vh;
+}
